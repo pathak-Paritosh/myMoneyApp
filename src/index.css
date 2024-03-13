@@ -1,0 +1,45 @@
+input {
+    outline: none;
+    font-size: 17px;
+    width: 100%;
+    font-size: 18px;
+    padding: 6px 4px;
+}
+
+.btn {
+    font-size: 17px;
+    padding: 7px 14px;
+    color: green;
+    background-color: #fff;
+    border: 1.5px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.btn:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.input-field-div {
+    margin-bottom: 20px;
+}
+
+.input-field-div label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.checkbox label {
+    margin-bottom: 0;
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.checkbox input {
+    width: auto;
+    width: 14px;
+    height: 14px;
+    transform: translateY(2px);
+}

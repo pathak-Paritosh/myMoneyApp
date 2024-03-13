@@ -1,0 +1,30 @@
+.transactions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.transactions li {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    font-size: 20px;
+    padding: 13px 20px;
+    padding-right: 40px;
+    border-left: 4px solid green;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.transactions li button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(232, 229, 229);
+}

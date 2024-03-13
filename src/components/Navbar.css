@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(203, 250, 203);
+}
+
+.navbar ul {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navbar ul .title {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navbar ul a.active{
+    text-decoration: underline;
+}
